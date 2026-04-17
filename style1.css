@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background-color: #f7f1d5;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 40px 0;
+}
+
+.dark {
+    background-color: #1f1a0f;
+}
+
+.dark .container {
+    background-color: #2a2415;
+}
+
+.dark h1 {
+    color: #e6c65c;
+}
+
+.dark h2, 
+.dark h3 {
+    color: #e6c65c;
+}
+
+.dark p {
+    color: #f5e6a5;
+}
+
+.dark .modal {
+    background: #2a2415;
+}
+
+.dark .modal input,
+.dark .modal textarea {
+    background: #1f1a0f;
+    color: #f5e6a5;
+    border: 1px solid #e6c65c;
+}
+
+.dark .modal button {
+    background: #e6c65c;
+    color: #1f1a0f;
+}
+
+#themeBtn {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    background-color: #e6c65c;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    width: 794px;
+    min-height: 1123px;
+    background-color: #fffbe6;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    padding-top: 60px;
+}
+
+.left {
+    width: 40%;
+    padding: 0 40px;
+    border-right: 1px dashed #e0d28c;
+}
+
+.right {
+    width: 60%;
+    padding: 0 40px;
+}
+
+h1 {
+    font-size: 42px;
+    color: #b59b2a;
+}
+
+h2, h3 {
+    color: #c7b24a;
+}
+
+p {
+    color: #3a351a;
+}
+
+footer {
+    width: 794px;
+    text-align: center;
+    margin-top: 20px;
+    color: #3a351a;
+}
+
+.dark footer {
+    color: #e6c65c;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 280px;
+    background: #fffbe6;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    padding: 15px;
+    z-index: 1000;
+}
+
+.modal-content {
+    position: relative;
+}
+
+#closeBtn {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.modal input,
+.modal textarea {
+    width: 100%;
+    margin-bottom: 8px;
+    padding: 6px;
+}
+
+.comment-card {
+    background: #fffbe6;
+    border-left: 4px solid #e6c65c;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+.comment-card h4 {
+    margin: 0;
+    font-size: 14px;
+    color: #b59b2a;
+}
+
+.comment-card p {
+    margin: 5px 0;
+    font-size: 13px;
+}
+
+.comment-card span {
+    font-size: 11px;
+    color: gray;
+}
+
+.dark .comment-card {
+    background: #3a3426;
+    border-left: 4px solid #e6c65c;
+}
+
+.dark .comment-card span {
+    color: #ccc;
+}
